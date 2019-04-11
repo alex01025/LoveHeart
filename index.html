@@ -14,16 +14,16 @@
 				overflow: hidden;
 			}
 		</style>
-		<div id="player">
-			<audio autoplay hidden>
-		     	<source src="HB.mp3" type="audio/mpeg">
-				If you're reading this, audio isn't supported. 
-			</audio>
-		</div>
 	</head>
 	<body>
 		
-
+		<iframe src="https://github.com/anars/blank-audio/blob/master/250-milliseconds-of-silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+		<div id="player">
+			<audio autoplay loop>
+    				<source src="HB.mp3"" type="audio/mp3">
+					If you're reading this, audio isn't supported. 
+			</audio>
+		</div>
 		<script src="nb.js"></script>
 
 		<script src="Projector.js"></script>
